@@ -1,0 +1,80 @@
+/* WORK WITH TUTOR TO FIGURE OUT HOW TO GET A STICKY FOOTER */
+
+body {
+    background-image: url("images/funky-lines.png");
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.navbar {
+    border-bottom: 2px solid #393F44;                 
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+}
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #DD524A;
+    font-size: 25px;
+    
+}
+.first-row {
+    border-bottom: 2px solid #cccccc;
+
+}
+
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid #393F44; 
+    margin-bottom: 80px; /*need this because pb-5 isn't big enough*/
+}
+button[type=submit]:hover {
+    background-color: #cccccc;
+    color: #393F44;
+}
+.btn-primary {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #393F44;
+}
+
+
+
+
+
+footer {
+    bottom: 0px;
+    left: 0px;
+    height: 60px;
+    background-color: #393F44;
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+}
+.footer-copyright {
+    font-weight: 100;
+    color: #cccccc;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+/* PORTFOLIO ONLY CONTENT */
+.btn {
+    width: 100%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    margin-top: 46%;
+    border-radius: 0px;
+    color: #ffffff;
+    line-height: 2.6;
+}
+.btn:hover {
+    background-color: #3b8884;
+}
+
