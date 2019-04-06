@@ -23,6 +23,10 @@ h1 {
 .navRow {
     width: 100%;
 }
+.navBar-toggler {
+    align-items: none;
+    float: right;
+}
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
